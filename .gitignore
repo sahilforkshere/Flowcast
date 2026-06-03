@@ -1,0 +1,21 @@
+# Environment variables - never commit these
+.env
+.env.local
+
+# Go binaries
+event-producer/event-producer
+clickhouse-consumer/clickhouse-consumer
+ws-server/ws-server
+
+# Go build cache
+*/vendor/
+
+# Next.js
+dashboard/.next/
+dashboard/node_modules/
+
+# OS
+.DS_Store
+
+# k6 results
+k6/*.json
